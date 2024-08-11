@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alone Bag Korean Style</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            width: calc(33.333% - 40px);
+            box-sizing: border-box;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product p {
+            margin-top: 15px;
+            font-size: 1em;
+            color: #555;
+        }
+        .price {
+            font-size: 1.2em;
+            color: #000000;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .price-discount {
+            text-decoration: line-through;
+            color: #FF0000;
+            margin-right: px;
+        }
+        .contact {
+            margin: 50px 0;
+            font-size: 1.5em;
+        }
+        .contact a {
+            color: #25D366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        form {
+            margin: 20px 0;
+            text-align: left;
+        }
+        form label {
+            display: block;
+            margin: 5px 0;
+        }
+        form input, form textarea, form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        form button:hover {
+            background-color: #1e8a50;
+        }
+        form button2 {
+            background-color: #FFEA00;
+            color: black;
+            border: none;
+            padding: 8px 16px;
+            font-size: 0.7em;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+        form button2:hover {
+            background-color: #FFC000;
+        }
+
+        .product-selection {
+            margin: 10px 0;
+        }
+        .product-item {
+            margin-bottom: 15px;
+        }
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .product {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome To Your Style</h1>
+        </div>
+        <h2>Nikmati gaya dan kenyamanan dengan Alone Bag Wanita Korean Style</h2>
+        <h2>Siapkan Dirimu Bergaya Elegan Ala Artis Korea yang semua mata tertuju akan pesona mu</h2>
+        
+        <div class="products">
+            <div class="product">
+                <h3>Coksu</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdx0-lyopkoffn4jb09" alt="Produk 1">
+                <p>"Miliki tas warna Coksu yang elegan ini, cocok untuk melengkapi gaya kasual Anda dengan sentuhan mewah. Warna yang netral ini akan mudah dipadukan dengan berbagai outfit."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Cream</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdxw-lyopkon7brfuc1" alt="Produk 2">
+                <p>"Tas warna Cream ini menghadirkan kesan manis dan lembut. Sempurna untuk Anda yang ingin tampil feminin dan anggun di setiap kesempatan."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Black</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdyv-lyopkotl2epz85" alt="Produk 3">
+                <p>"Tampil klasik dan berkelas dengan tas warna Black. Desain simpel namun elegan ini akan menjadi pelengkap sempurna untuk gaya formal maupun santai."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Sage</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdwi-lyopkp12rg1zeb" alt="Produk 4">
+                <p>"Hadirkan nuansa alami dengan tas warna Sage. Warna hijau lembut ini memberikan kesan tenang dan fresh, cocok untuk Anda yang menyukai keindahan alam."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Choco</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdvl-lyopkp94fodo7d" alt="Produk 5">
+                <p>"Tas warna Choco ini menawarkan kombinasi kehangatan dan keanggunan. Warna cokelat yang kaya ini memberikan sentuhan earthy pada penampilan Anda."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Guava</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdxt-lyopkq0vfane68" alt="Produk 6">
+                <p>"Warnai hari Anda dengan tas Guava yang ceria dan menyegarkan. Cocok untuk Anda yang ingin tampil segar dan energik di setiap aktivitas."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Mocca</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdyg-lyopkq8mzpei7c" alt="Produk 7">
+                <p>"Nikmati kesan hangat dan nyaman dengan tas Mocca. Warna netral ini memberikan sentuhan sophisticated untuk gaya kasual sehari-hari Anda."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Taupe</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdvk-lyopkqgepqhub8" alt="Produk 8">
+                <p>"Tas warna Taupe memberikan tampilan yang stylish dan versatile. Warna abu-abu kecokelatan ini mudah dipadukan dengan berbagai outfit, baik untuk kerja maupun santai."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Cloud</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdwt-lyopkqvy1lcy15" alt="Produk 9">
+                <p>"Tampil dreamy dengan tas warna Cloud yang lembut dan anggun. Warna putih keabu-abuan ini memberi kesan fresh dan bersih pada gaya Anda."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Broken White</h3>
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdwc-lyoplbv7cday49" alt="Produk 10">
+                <p>"Tas warna Broken White ini memberikan tampilan yang sophisticated dan elegan. Warna putih dengan sentuhan keabu-abuan ini sangat cocok untuk berbagai acara."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+            <div class="product">
+                <h3>Silver</h3>
+                <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lyry081g85549d" alt="Produk 11">
+                <p>"Hadirkan kilau glamor dengan tas warna Silver. Warna metalik ini memberikan sentuhan futuristik yang akan menarik perhatian di setiap kesempatan."</p>
+                <p class="price">
+                    <span class="price-discount">Rp 150.000</span> Rp 79.900
+                </p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h3>Formulir Pemesanan</h3>
+            <form id="orderForm">
+                <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="address">Alamat Lengkap:</label><br>
+                <textarea id="address" name="address" required></textarea><br><br>
+
+                <label for="phone">No. WA:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10,13}" required><br><br>
+
+                <div id="productList">
+                    <div class="product-selection">
+                        <label for="product0">Pilih Varian:</label><br>
+                        <select id="product0" name="product0" class="product-item" required>
+                            <option value="Coksu">Coksu</option>
+                            <option value="Cream">Cream</option>
+                            <option value="Black">Black</option>
+                            <option value="Sage">Sage</option>
+                            <option value="Choco">Choco</option>
+                            <option value="Guava">Guava</option>
+                            <option value="Mocca">Mocca</option>
+                            <option value="Taupe">Taupe</option>
+                            <option value="Cloud">Cloud</option>
+                            <option value="Broken White">Broken White</option>
+                            <option value="Silver">Silver</option>
+                        </select><br><br>
+
+                        <label for="quantity0">Jumlah:</label><br>
+                        <input type="number" id="quantity0" name="quantity0" min="1" value="1" required><br><br>
+                    </div>
+                </div>
+
+                <button2 type="button" id="addProduct">Tambah Varian</button2><br><br>
+                <center><button type="submit">Pesan via WhatsApp</button></center>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let productCount = 1;
+
+        document.getElementById('addProduct').addEventListener('click', function() {
+            const productList = document.getElementById('productList');
+            const newProduct = document.createElement('div');
+            newProduct.className = 'product-selection';
+            newProduct.innerHTML = `
+                <label for="product${productCount}">Pilih Varian:</label><br>
+                <select id="product${productCount}" name="product${productCount}" class="product-item" required>
+                    <option value="Coksu">Coksu</option>
+                    <option value="Cream">Cream</option>
+                    <option value="Black">Black</option>
+                    <option value="Sage">Sage</option>
+                    <option value="Choco">Choco</option>
+                    <option value="Guava">Guava</option>
+                    <option value="Mocca">Mocca</option>
+                    <option value="Taupe">Taupe</option>
+                    <option value="Cloud">Cloud</option>
+                    <option value="Broken White">Broken White</option>
+                    <option value="Silver">Silver</option>
+                </select><br><br>
+
+                <label for="quantity${productCount}">Jumlah:</label><br>
+                <input type="number" id="quantity${productCount}" name="quantity${productCount}" min="1" value="1" required><br><br>
+            `;
+            productList.appendChild(newProduct);
+            productCount++;
+        });
+
+        document.getElementById('orderForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const address = document.getElementById('address').value;
+            const phone = document.getElementById('phone').value;
+
+            let message = `Halo, saya ingin memesan tas dengan detail berikut:\n\n`;
+    message += `Nama: ${name}\n`;
+    message += `Alamat: ${address}\n`;
+    message += `No. WA: ${phone}\n\n`;
+
+    for (let i = 0; i < productCount; i++) {
+        const product = document.getElementById(`product${i}`).value;
+        const quantity = document.getElementById(`quantity${i}`).value;
+        message += `Varian: ${product}\nJumlah: ${quantity}\n\n`;
+    }
+
+            const whatsappLink = `https://wa.me/6287879716701?text=${encodeURIComponent(message)}`;
+            window.open(whatsappLink, '_blank');
+        });
+    </script>
+</body>
+</html>
